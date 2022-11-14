@@ -35,6 +35,11 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила "+min+" рублей. Максимальная сумма трат за день составила "+max+" рублей");
         //Задание 3
+        double summ= sum;
+        double middle = summ / 30;
+        System.out.println("Средняя сумма трат за месяц составила "+middle+" рублей");
+        //Задание 4
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
     }
 }
