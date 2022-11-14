@@ -22,5 +22,19 @@ public class Main {
         }
         System.out.println(a);
         System.out.println(sum);
+        //Задание 2
+        int min = 200000;
+        int max = 100000;
+        for (int i = 0; i < arr.length; i++) {
+            if(min > arr[i]){
+                min = arr[i];
+            }
+            if(max < arr[i]){
+                max = arr[i];
+            }
+        }
+        System.out.println("Минимальная сумма трат за день составила "+min+" рублей. Максимальная сумма трат за день составила "+max+" рублей");
+        //Задание 3
+
     }
 }
